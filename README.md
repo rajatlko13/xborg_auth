@@ -67,3 +67,7 @@ Security & production notes
 - Change `JWT_SECRET` to a strong secret in production.
 - Set `NODE_ENV=production` in production so cookies are set with `secure: true`.
 - Consider disabling `synchronize` and using migrations for production databases.
+
+Demo
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e5b47aa1ab2b452c99f86d4b62a5558f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
