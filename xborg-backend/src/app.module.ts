@@ -17,6 +17,7 @@ import { UserModule } from './user/user.module';
       synchronize: true,
       autoLoadEntities: true,
       logging: false,
+      ssl: process.env.NODE_ENV === 'production' ? true : false,
     }),
     AuthModule,
     UserModule,
